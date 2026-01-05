@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+  color: #0d1b2a;
+}
+
+.sub {
+  color: #6b7a8a;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.addForm {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #eef2f6;
+  background: #fff;
+}
+
+.list {
+  margin-top: 8px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 28px 0;
+}
+
+.empty {
+  color: #6b7a8a;
+  padding: 28px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #eef2f6;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+}
+
+.editCard {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #eef2f6;
+}
+
+.editInput {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #e6eef8;
+}
+
+.editActions {
+  display: flex;
+  gap: 8px;
+}

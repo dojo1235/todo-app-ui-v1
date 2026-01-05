@@ -1,0 +1,32 @@
+.button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 120ms ease, transform 80ms ease;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.primary {
+  background: linear-gradient(90deg, #0d8abc, #0b6fa1);
+  color: #fff;
+  box-shadow: 0 6px 14px rgba(13, 27, 42, 0.08);
+}
+
+.ghost {
+  background: transparent;
+  color: #0d8abc;
+  border: 1px solid rgba(13, 27, 42, 0.06);
+}
+
+.danger {
+  background: #ff6b6b;
+  color: white;
+}

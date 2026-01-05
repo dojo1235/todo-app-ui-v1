@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+}
+
+.form {
+  width: 420px;
+  background: #fff;
+  padding: 28px;
+  border-radius: 12px;
+  border: 1px solid #eef2f6;
+  box-shadow: 0 8px 30px rgba(13, 27, 42, 0.04);
+}
+
+.title {
+  margin: 0 0 12px 0;
+  font-size: 20px;
+  color: #0d1b2a;
+}
+
+.label {
+  display: block;
+  margin-bottom: 12px;
+  color: #475569;
+  font-size: 13px;
+}
+
+.input {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #e6eef8;
+  background: #fbfdff;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.link {
+  color: #0d8abc;
+  font-weight: 600;
+  text-decoration: none;
+}
